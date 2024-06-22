@@ -1,0 +1,18 @@
+.wrapper {
+  margin: 40px auto;
+  max-width: 1200px;
+}
+
+.navigation {
+  margin: 0 auto;
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__item {
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
