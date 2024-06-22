@@ -84,3 +84,34 @@
     left: 100%;
   }
 }
+
+@media (max-width: 800px) {
+  .profile {
+    width: 100%;
+    height: fit-content;
+    padding: 25px;
+  }
+
+  .profile-title {
+    font-size: 20px;
+  }
+
+  .text-line {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    gap: 10px;
+  }
+
+  .line {
+    display: none;
+  }
+
+  .title {
+    font-size: 13px;
+  }
+
+  .value {
+    font-size: 13px;
+  }
+}

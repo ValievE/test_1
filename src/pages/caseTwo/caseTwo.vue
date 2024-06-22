@@ -55,13 +55,6 @@ type TodoData = {
   text: String
 }
 
-const emptyCard: TodoData = {
-  title: 'Без названия',
-  date: Date.now(),
-  isActual: true,
-  text: ''
-}
-
 const fakeDB: Array<TodoData> = reactive([
   {
     title: 'Lorem ipsum dolor sit amet',
@@ -90,6 +83,12 @@ const fakeDB: Array<TodoData> = reactive([
 ])
 
 const createTodo = () => {
+  const emptyCard: TodoData = {
+    title: 'Без названия',
+    date: Date.now(),
+    isActual: true,
+    text: ''
+  }
   fakeDB.push(emptyCard)
 }
 

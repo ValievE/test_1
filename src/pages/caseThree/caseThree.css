@@ -72,3 +72,20 @@
   color: rgba(0, 0, 0);
   font-weight: 700;
 }
+
+@media (max-width: 800px) {
+  .users-list {
+    height: 500px;
+    gap: 20px;
+    padding: 25px;
+  }
+
+  .users-list-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .user {
+    font-size: 15px;
+  }
+}

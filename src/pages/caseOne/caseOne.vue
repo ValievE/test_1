@@ -2,11 +2,7 @@
   <div class="wrapper">
     <div class="profile">
       <div class="profile-image">
-        <img
-          class="profile-image__img"
-          src="https://img.freepik.com/free-photo/close-up-man-smiling-nature_23-2150771111.jpg?t=st=1719042970~exp=1719046570~hmac=1f3da2be431a80216768cfeaf6cb75c2acaac6d778df39664be563c80f3068eb&w=1380"
-          alt=""
-        />
+        <img class="profile-image__img" src="https://i.imgur.com/PBy1BAJ.png" alt="" />
       </div>
       <div class="profile-info">
         <h3 class="username">Иванов Иван</h3>
